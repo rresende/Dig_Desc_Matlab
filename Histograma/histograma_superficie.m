@@ -4,11 +4,11 @@ vec_Z_base = Z(:); clear Z
 load Provete_69_Topo_1
 vec_Z_topo = Z(:);
 
-mean(vec_Z_topo)
-
-
-% DUVIDA - Temos de comparar a superficie mated em cima e em baixo (cortar
+% Que análise vamos fazer?
+% DUVIDA - Devemos usar as superficies mated em cima e em baixo (cortar
 % a de baixo) para podermos comparar uma e outra e ver se o ajuste é bom. 
+
+% Faz mais sentido as superficies terem mínimo ZERO ou Média Zero?
 vec_Z(:,1) = vec_Z_base(1:25000); 
 vec_Z(:,2) = vec_Z_topo(1:25000);
 
