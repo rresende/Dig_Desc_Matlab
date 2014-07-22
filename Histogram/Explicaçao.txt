@@ -1,0 +1,6 @@
+Histograma calculado no Matlab pois excel não engole. Depois o vector do histograma é passado para o excel para faer os plots.
+
+Retirou-se a média das alturas.
+
+Atenção que para comparar bases e topos é preciso trabalhar com as áreas sobrepostas equivalentes.
+
